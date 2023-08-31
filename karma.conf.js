@@ -44,6 +44,8 @@ module.exports = function (config) {
           "--headless",
           "--disable-gpu",
           "--remote-debugging-port=9222",
+          "--watch=false",
+          "--source-map=false",
         ],
       },
     },
